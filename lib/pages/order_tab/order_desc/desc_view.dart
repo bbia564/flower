@@ -11,7 +11,7 @@ class DescView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.nikolaus.value
+          () => controller.streich.value
               ? const CircularProgressIndicator(color: Colors.greenAccent)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class DescView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.rnjf();
+              controller.letw();
             },
             icon: const Icon(
               Icons.restart_alt,
